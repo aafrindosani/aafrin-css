@@ -1,0 +1,47 @@
+main{
+    background-color: aqua;border: 6px solid black;
+    height: 1000px;
+    width: 100%;
+
+}
+header{
+    background-color: antiquewhite; height: 10%;
+    display: flex;
+}
+.logo{background-color: chocolate;height: 100%; width: 100px;}
+.heading{background-color: cornflowerblue;height: 100%;
+width: 100%;}
+.menu{background-color: cornsilk;height: 100%;width: 30%;}
+section{
+    background-color: brown;
+    height: 80%;
+    display: flex;
+}
+aside{
+    background-color: chartreuse;height: 100%; width: 100%;display: flex;
+}
+.one{background-color: gray;
+
+height: 100%;width: 100%;}
+
+.two{background-color:green;height: 100%;width: 100%;}
+.three{background-color: rgba(172, 255, 47, 0.76);height: 100%;width: 100%;}
+.four{background-color: gold;height: 100%;width: 100%;}
+article{
+    height: 100%; width: 100%;background-color: darkcyan;
+    display: flex;
+}.box5{background-color: yellow;height: 100%;width: 100%;}
+.box6{background-color: orange;height: 100%;width: 100%;}
+.box7{background-color: paleturquoise;height: 100%;width: 100%;}
+.box8{background-color: burlywood;height: 100%;width: 100%;}
+nav{
+    height: 100%; width: 100%;background-color: darkgoldenrod;
+}
+.box{background-color: darkolivegreen;height: 25%;}
+.box2{background-color: rosybrown;height: 25%;}
+.box3{background-color: purple;height: 25%;}
+.box4{background-color: palegreen;height: 25%;}
+footer{
+    background-color: blueviolet;
+    height: 10%;
+}

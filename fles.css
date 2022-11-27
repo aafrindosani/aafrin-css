@@ -1,0 +1,52 @@
+.main{
+    background-color: aqua;
+    height: 500px;
+    width: 700px;
+}
+.header{
+    background-color: blue;
+    width: 700px;
+    height: 200px;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    float: left;
+}
+.heading{
+    height: 150px;
+    width: 500px;
+    background-color: blueviolet;
+    float: left;text-align: center;
+}
+
+.menu{
+    height: 50px;
+    width: 500px;
+    background-color: burlywood;
+    float: left;
+    text-align: center;
+    
+}
+.continer{
+    background-color: chartreuse;
+    height: 400px;
+    width: 700px;
+}
+.left{
+background-color: cornflowerblue;
+height: 400px;width: 300px;float: left;
+}
+.middle{
+    background-color:rebeccapurple;
+height: 400px;width: 200px;float: left;
+
+}
+.right{background-color: gray;
+    height: 400px;width: 200px;float: right;}
+    .footer{
+        background-color: crimson
+        ;height: 100px;width: 700px;
+
+    }

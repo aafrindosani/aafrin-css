@@ -1,0 +1,21 @@
+.main{
+    height:400px ;
+     display: flex;
+     border: 6px solid black;
+     width: 700px;
+    flex-direction: row;
+     flex-wrap:wrap;
+     justify-content: space-evenly;
+ }
+ .one{
+     background-color: aqua;
+     width: 200px;
+ }
+ .two{
+     background-color: blue;
+     width: 200px;
+ }
+ .three{
+     background-color: brown;
+     width: 200px;
+ }
