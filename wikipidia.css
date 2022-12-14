@@ -127,18 +127,38 @@ border: 1px solid gray;
     h1{
         background-color: brown;
     }
-  
-    .log{
+    .para{
+        background-color: aqua;
+    }
+    
 
        
 
+}
+@media all and (min-width:400px){
+    .login{
+        
+        flex-direction: column;
+        text-align: center;
+        color: red;
     }
- }
+h1{
+    background-color: blueviolet;
+}
+}
+ 
 @media all and (max-width:600px)
  {
     .HEADING1{
         background-color: blue;
     }
+}
+@media all and (max-width:800px){
+    .log a{ color: blue;}
+
+.log a:hover{background-color: red;
+
+}
 }
 @media all and (max-width:1200px){
     .login:hover{
