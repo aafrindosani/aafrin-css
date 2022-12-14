@@ -1,0 +1,16 @@
+h1{
+    background-color: blue;
+}
+a{
+    background-color: brown;
+}
+a:link{
+    background-color: blueviolet;
+    color: burlywood;
+}
+a:visited{
+    background-color: aqua;
+}
+a:active{
+    background-color: red;
+}

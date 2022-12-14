@@ -1,0 +1,43 @@
+main{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: blueviolet;
+    display: flex;
+    flex-grow: 1;
+
+}
+.logo{
+    flex-grow: 1;
+    background-color: aqua;
+}
+.heding{
+    flex-grow: 1;
+    background-color: bisque;
+}
+menu{
+    flex-grow: 1;
+    background-color: chocolate;
+}
+menu a{
+    padding: 20px;
+}
+section{
+    background-color: brown;
+    flex-grow: 8;
+    display: flex;
+
+}
+.product{
+    flex-grow: 5;
+  
+}
+.product a{
+    padding: 20px;
+}
+footer{
+    background-color: burlywood;
+    flex-grow: 1;
+}

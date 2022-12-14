@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-image: url(img/imges1.jpeg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: 100vw;
+
+}
+
+form{
+    border-radius: 100px;
+    height: 400px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    border: 6px solid black;
+    margin: auto;
+    
+
+}
+h1{
+    text-align: center;
+}
+.box{
+
+width: 65%;
+margin: 10px;
+padding: 10px;
+}
+.login{
+    width: 65%;
+    margin: 20px;
+}
+ a{
+    
+    margin: auto;
+    color: black;
+    
+
+  
+}

@@ -1,0 +1,55 @@
+main{
+    background-color: aqua;border: 6px solid black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    background-color: antiquewhite; flex-grow: 1;
+    display: flex;
+}
+.logo{background-color: chocolate;flex-grow: 1;}
+.heading{background-color: cornflowerblue;flex-grow: 5;}
+.menu{background-color: cornsilk;flex-grow: 1;}
+section{
+    background-color: brown;
+    flex-grow: 8;display: flex;
+    border: 3px solid black;
+    
+}
+aside{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+.one{background-color: gray;
+
+flex-grow: 2;}
+
+.two{background-color:green;flex-grow: 2;}
+.three{background-color: rgba(172, 255, 47, 0.76);flex-grow: 2;}
+.four{background-color: gold;flex-grow: 2;}
+article{
+    background-color: darkcyan;flex-grow: 5;display: flex;
+    
+  
+}
+.box5{background-color: yellow; flex-grow: 3;}
+.box6{background-color: orange; flex-grow: 3;}
+.box7{background-color: paleturquoise; flex-grow: 3;}
+.box8{background-color: burlywood; flex-grow: 3;}
+nav{
+    background-color: darkgoldenrod; flex-grow: 3;
+display: flex;
+flex-direction: column;}
+.box{background-color: darkolivegreen; flex-grow: 1;}
+.box2{background-color: rosybrown; flex-grow: 1;}
+.box3{background-color: purple; flex-grow: 1;}
+.box4{background-color: palegreen ; flex-grow: 1;}
+footer{
+    background-color: blueviolet;
+    flex-grow: 1;
+}

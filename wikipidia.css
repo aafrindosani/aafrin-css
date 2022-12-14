@@ -1,0 +1,147 @@
+*{
+    margin: 0px;padding: 0px;
+}
+.mainsection{
+    background-color: aqua;
+    display: flex;
+border: 6px solid black;
+flex-wrap: wrap;}
+   
+aside{
+background-color: bisque;
+flex-grow: 2;
+flex-basis: 200px;
+display: flex;
+flex-direction: column;align-items: center;
+
+}
+.log{
+   
+    flex-grow: 1;
+    flex-basis: 100px;
+    list-style: none;
+      
+    
+  
+
+}
+.logo{
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 30px;
+
+
+}
+
+
+
+.logo img{
+    width: 300px;
+}
+main{
+    background-color: blanchedalmond;
+    flex-grow: 8;
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+  
+}
+header{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;flex-wrap: wrap;
+   
+ }
+ .login{
+     display: flex;
+     list-style: none;
+     justify-content: end;
+ }
+ .login li{
+     padding: 20px;
+ }
+ .menu{
+     
+     display: flex;
+     justify-content: space-between;
+     flex-grow: 2;
+   
+     border: 1px solid gray;
+     
+ }
+ .left{
+     list-style: none;
+     display: flex;
+     
+    
+     
+     
+ }
+ .left li{
+     padding: 10px; border: 1px solid gray;
+ }
+ .right{list-style: none;
+     display: flex;
+    
+    
+ }
+ 
+ .right li{
+     padding: 10px;
+ }
+ .heading{
+     flex-grow: 2;
+     display: flex;
+     justify-content: space-between;
+ }
+ .HEADING1{flex-grow: 1;}
+ section{
+    background-color: coral;
+    flex-grow: 8;
+    flex-basis: 500px;
+    display: flex; 
+    flex-wrap: wrap;
+   
+ }
+ .para{
+    flex-grow: 3;
+    
+
+}
+.images{
+    background-color: gray;
+flex-grow: 1;
+text-align: center;
+border: 1px solid gray;
+}
+.images img{
+    width: 300px;
+}
+ footer{
+    background-color: cornflowerblue;
+    flex-grow: 1;
+ }
+ @media all and (min-width:200px)
+ {
+    h1{
+        background-color: brown;
+    }
+  
+    .log{
+
+       
+
+    }
+ }
+@media all and (max-width:600px)
+ {
+    .HEADING1{
+        background-color: blue;
+    }
+}
+@media all and (max-width:1200px){
+    .login:hover{
+background-color: pink;
+    }
+}

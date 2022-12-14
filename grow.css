@@ -1,0 +1,59 @@
+main{
+    background-color: blueviolet;
+    height: 700px;width: 650px;
+    display: flex;
+    flex-direction: column;
+}
+header{background-color: brown;
+flex-grow: 1;
+display: flex;}
+.logo{background-color: burlywood;
+flex-grow: 1;}
+.heading{
+    background-color: rgb(16, 172, 63);flex-grow: 3;
+}
+.menu{
+    background-color: cornflowerblue;flex-grow: 2;
+}
+section{
+    background-color: aqua;flex-grow: 5;border: 2px solid black;display: flex;
+}
+aside{
+    background-color: darkblue; flex-grow: 3;
+   display: flex;
+   flex-direction: column;
+   border: 2px solid rebeccapurple;
+    
+
+}
+.one{
+    background-color: brown;
+    flex-grow: 2;
+}
+.two{
+    background-color: yellowgreen;
+    flex-grow: 2;
+}
+.three{
+    background-color: orangered;
+    flex-grow: 2;
+}
+.four{
+    background-color: beige;
+    flex-grow: 2;
+}
+.five{
+    background-color: greenyellow;
+    flex-grow: 2;
+}
+article{
+    background-color: crimson;
+    flex-grow: 2;
+}
+nav{
+    background-color: darkgray;flex-grow: 2;
+}
+
+footer{
+    background-color: chartreuse; flex-grow: 1;
+}

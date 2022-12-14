@@ -2,6 +2,7 @@ main{
     background-color: aqua;border: 6px solid black;
     height: 1000px;
     width: 100%;
+    flex-wrap: wrap;
 
 }
 header{
@@ -35,7 +36,7 @@ article{
 .box7{background-color: paleturquoise;height: 100%;width: 100%;}
 .box8{background-color: burlywood;height: 100%;width: 100%;}
 nav{
-    height: 100%; width: 100%;background-color: darkgoldenrod;
+    height:100%;width: 100%;background-color: darkgoldenrod; 
 }
 .box{background-color: darkolivegreen;height: 25%;}
 .box2{background-color: rosybrown;height: 25%;}

@@ -1,0 +1,58 @@
+
+*{
+    margin: 0px;padding: 0px;
+}
+main{
+    background-color: aqua;
+display: flex;
+flex-direction:column ;border: 6px solid black;
+}
+header{
+    background-color:rgb(58, 67, 75);
+    display: flex;flex-grow: 1;
+    flex-basis: 200px;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+header a{
+    padding: 20px;
+    color: aliceblue;
+}
+header:hover{
+    background-color: pink;
+}
+.he{
+    padding: 20px;
+   
+}
+
+section{
+    background-color: brown;flex-grow: 8;
+    flex-wrap: wrap;display: flex;
+    
+}
+h1{
+    text-align: center;
+}
+article{
+    background-color: green;flex-grow: 2;padding: 50px;
+}
+aside{
+    background-color: red;flex-grow: 2;padding: 50px;
+
+}
+nav{
+    background-color: blue;flex-grow: 2;padding: 50px;
+}
+
+footer{
+background-color: black;
+flex-grow: 1;
+color: white;
+text-align: center;
+}
