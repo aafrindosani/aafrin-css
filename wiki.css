@@ -44,6 +44,25 @@ header{
 .login li{
     padding: 20px;
 }
+li ul{display: none;
+list-style: none;
+flex-direction: column;
+background-color: blue;
+position: absolute;}
+li:hover ul{
+    display: flex;
+    color: red;
+}
+li a{
+    color: white;
+}
+li ul li ul li{
+    display: none;
+    background-color: blueviolet;
+}
+li ul li:hover ul li{
+    display: flex;
+}
 .menu{
     
     display: flex;

@@ -12,7 +12,9 @@ background-color: bisque;
 flex-grow: 2;
 flex-basis: 200px;
 display: flex;
-flex-direction: column;align-items: center;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
 
 }
 .log{
@@ -29,6 +31,7 @@ flex-direction: column;align-items: center;
     flex-basis: 100px;
     flex-grow: 1;
     padding: 30px;
+   
 
 
 }
@@ -44,13 +47,15 @@ main{
     flex-basis: 500px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   
 }
 header{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    border: 1px solid gray;flex-wrap: wrap;
+    border: 1px solid gray;
+    flex-wrap: wrap;
    
  }
  .login{
@@ -66,6 +71,7 @@ header{
      display: flex;
      justify-content: space-between;
      flex-grow: 2;
+     flex-wrap: wrap;
    
      border: 1px solid gray;
      
@@ -97,7 +103,8 @@ header{
  }
  .HEADING1{flex-grow: 1;}
  section{
-    background-color: coral;
+    background-color:
+     coral;
     flex-grow: 8;
     flex-basis: 500px;
     display: flex; 
@@ -113,12 +120,14 @@ header{
     background-color: gray;
 flex-grow: 1;
 text-align: center;
+
+
 border: 1px solid gray;
 }
 .images img{
     width: 300px;
 }
- footer{
+ footer{flex-wrap: wrap;
     background-color: cornflowerblue;
     flex-grow: 1;
  }
@@ -130,7 +139,9 @@ border: 1px solid gray;
     .para{
         background-color: aqua;
     }
-    
+      aside{
+        flex-grow: 1;
+    }
 
        
 
@@ -152,6 +163,7 @@ h1{
     .HEADING1{
         background-color: blue;
     }
+  
 }
 @media all and (max-width:800px){
     .log a{ color: blue;}

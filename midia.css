@@ -1,0 +1,91 @@
+main{
+    background-color: aqua;
+    flex-basis: 1000px;
+    display: flex;
+    border: 5px solid black;
+}
+aside{
+    background-color: azure;
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex;
+    text-align: center;
+}
+.logo{
+    flex-grow: 1;
+    flex-basis: 200px;
+line-height: 40px;
+}
+.logo li{
+    list-style: none;
+}
+.main2{
+    background-color: aquamarine;
+    flex-grow: 8;
+    flex-basis: 1000px;
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    background-color: white;
+    flex-grow: 1;
+    flex-basis: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    flex-grow: 1;
+    flex-basis: 100px;
+    display: flex;  list-style: none;
+    justify-content: end;
+    display: flex;
+ 
+
+}
+
+.login li{
+  padding: 10px;
+ 
+}
+menu{
+    flex-grow: 1;
+    flex-basis: 50px;
+    display: flex;
+   
+    list-style: none;
+    justify-content: space-between;
+}
+.left{
+    flex-grow: 1;
+    flex-basis: 50px; 
+display: flex;
+}
+.left a{padding: 10px;
+    border: 1px solid gray;
+
+}
+
+.right{
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 50px;}
+    .right li{padding: 10px;}
+    .heading{
+        flex-grow: 1;
+        flex-basis: 50px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+section{
+    background-color: cornflowerblue;
+    flex-basis: 1000px;
+    flex-grow: 5;
+}
+footer{
+    background-color: darkgoldenrod;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
