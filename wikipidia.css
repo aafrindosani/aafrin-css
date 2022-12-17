@@ -171,6 +171,11 @@ border: 1px solid gray;
         flex-direction: column;
         text-align: center;
         color: red;
+       
+        left: 150px;
+    }
+    .login li ul{
+        position: relative;
     }
 h1{
     background-color: blueviolet;
